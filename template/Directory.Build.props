@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <SiteDir>$(ADVANCED_SITE_DIR)</SiteDir> 
+        <SiteDir Condition="'$(SiteDir)'==''">../Site</SiteDir>
+    </PropertyGroup>
+</Project>
